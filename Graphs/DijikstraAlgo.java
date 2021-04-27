@@ -37,7 +37,7 @@ class DijikstraAlgo{
 							set.remove(xo);
 						}
 						dist[nbrs.d]=dist[top.w]+top.d;
-						set.add(new Pair(dist[nbrs.d],nbrs.w
+						set.add(new Pair(dist[nbrs.d],nbrs.w));
 					}
 				}
 				
